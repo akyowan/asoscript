@@ -1,0 +1,7 @@
+*/1 * * * * /bin/bin/python2.7 /data/asoscript/apo_timeout_check.py >>/data/logs/crontab/apo_timeout_check.log 2>&1
+*/1 * * * * /bin/bin/python2.7 /data/asoscript/apo_predispatch.py   >>/data/logs/crontab/apo_predispatch.log 2>&1
+*/1 * * * * /usr/bin/python2.7 /data/asoscript/apo_real_stats.py    >>/data/logs/crontab/apo_real_stats.log 2>&1
+*/1 * * * * /usr/bin/python2.7 /data/asoscript/apo_dispatch.py      >>/data/logs/crontab/apo_dispatch.log 2>&1
+*/1 * * * * /usr/bin/python2.7 /data/asoscript/account_crontab.py   >>/data/logs/crontab/account_crontab.log 2>&1
+1 0 * * *   /usr/bin/python2.7 /data/asoscript/task_recyle.py       >>/data/logs/crontab/task_rycyle.log 2>&1
+*/1 * * * * /usr/bin/python2.7 /data/asoscript/apo_sub_task.py      >>/data/logs/crontab/apo_sub_task.log 2>&1
