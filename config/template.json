@@ -1,0 +1,20 @@
+{
+    "redis":{
+        "host":"localhost",
+        "db":9,
+        "port":6379
+    },
+    "mysql":{
+        "host":"rm-uf69npx30nm5o6w3t.mysql.rds.aliyuncs.com",
+        "port":3306,
+        "user":"root",
+        "passwd":"Aa284533186",
+        "db":""
+    },
+    "cache":{
+        "max":3000,
+        "min":100
+    },
+    "server":"http://aco.71741.com"
+}
+
